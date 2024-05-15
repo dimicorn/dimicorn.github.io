@@ -1,11 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -355,12 +347,16 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  /* list-style-type: disc !important;
+  padding-left: 1em !important;
+  margin-left: 1em; */
 }
 
 .about .content ul li {
   margin-bottom: 20px;
-  display: flex;
+  display: flex; 
   align-items: center;
+  /* list-style-type: disc !important; */
 }
 
 .about .content ul strong {
