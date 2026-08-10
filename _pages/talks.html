@@ -11,6 +11,19 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
+{% assign all_talks = site.talks | reverse %}
+{% assign recent_talks = all_talks | slice: 0, 3 %}
+{% assign older_talks = all_talks | slice: 3, all_talks.size %}
+
+{% for post in recent_talks %}
   {% include archive-single-talk.html %}
 {% endfor %}
+
+{% if older_talks.size > 0 %}
+<details>
+  <summary>Show {{ older_talks.size }} more talks</summary>
+  {% for post in older_talks %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+</details>
+{% endif %}

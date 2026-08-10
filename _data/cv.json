@@ -1,61 +1,80 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Dmitrii Zagorulia",
+    "email": "zagorulia.ds@phystech.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://dimicorn.github.io",
+    "summary": "Currently employed at Moscow Institute of Physics and Technology (MIPT). Machine Learning for Scientific Discovery",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Moscow, Russia",
       "countryCode": "US",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/my-orcid?orcid=0009-0003-4528-1635"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "dimicorn",
+        "url": "https://github.com/dimicorn"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Voice Input Service (full-time",
+      "position": "Apr. 2026 - Jun. 2026: Machine Learning Engineer",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Yandex, Moscow, Russia",
+        "Trained CatBoost models on audio-quality features to automate side-by-side evaluation and reduce human-assessment cost",
+        "Implemented and evaluated quantization-aware training for audio models",
+        "Analyzed firmware parameters of a new device and their impact on input audio quality"
+      ]
+    },
+    {
+      "company": "remote)",
+      "position": "Feb. 2026 - Jun. 2026: Computer Vision Engineer (part-time",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Scientific Programming Centre, Dolgoprudny, Russia",
+        "Developed a real-time computer vision system for flotation monitoring: YOLOv11-based bubble segmentation from RTSP streams and extraction of bubble-size and distribution metrics",
+        "Implemented a module for recognizing digital readings from industrial camera footage",
+        "Built an IP camera control module for Hikvision devices using ISAPI and RTSP"
+      ]
+    },
+    {
+      "company": "on-site)",
+      "position": "Jun. 2025 - Mar. 2026: Robotics Software Engineer (full-time",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Laboratory of Intelligent Robotics Technologies, MIPT, Dolgoprudny, Russia",
+        "Robotic Arm: Developed ROS2 software and a C++/pybind11 backend for communication with robotic-hand sensors and motors over RS485/Modbus",
+        "Warehouse Robot: Containerized and debugged an ORB-SLAM3 pipeline for real-time room mapping and robot localization against a prebuilt map, using gyroscope data for improved positioning"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Moscow Institute of Physics and Technology (MIPT)",
+      "area": "M.Sc. in Computer Science and Computer Engineering (Scientific Programming)",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2024",
       "gpa": null,
       "courses": []
     }
@@ -66,77 +85,189 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Magnetic Fields of Neutron Stars",
+      "publisher": "Astronomy Letters",
+      "releaseDate": "2021-10-15",
+      "website": "",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Sphere or Disk? Accretion of Interstellar Gas onto Isolated Stellar-Mass Black Holes",
+      "publisher": "Modern Astronomy: From the Early Universe to Exoplanets and Black Holes, 599&ndash;603",
+      "releaseDate": "2024-08-27",
+      "website": "",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Classification of Jets in Active Galactic Nuclei using Machine Learning",
+      "publisher": "Modern Astronomy: From the Early Universe to Exoplanets and Black Holes, 131&ndash;135",
+      "releaseDate": "2024-08-28",
+      "website": "",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Polytropic Wind-Driven Bubbles and their Shock Structures in Radially Stratified Ambient Media",
+      "publisher": "Publications of the Astronomical Society of the Pacific (PASP), 137, 064301",
+      "releaseDate": "2025-06-16",
+      "website": "",
+      "summary": ""
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "Magnetic Fields of Radio Pulsars",
+      "event": "64th International MIPT Scientific Conference, Space Research Institute RAS",
+      "date": "2021-11-30",
+      "location": "Moscow, Russia",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
+      "name": "Orthogonal Interpulsar Pulsars as a Test of the Law of Evolution",
+      "event": "High Energy Astrophysics Today and Tomorrow, Space Research Institute RAS",
+      "date": "2022-12-20",
+      "location": "Moscow, Russia",
       "description": ""
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
+      "name": "To Morphology of Mean Profiles of Orthogonal Interpulse Pulsars",
+      "event": "Physics of Neutron Stars, Ioffe Physical-Technical Institute RAS",
+      "date": "2023-07-12",
+      "location": "Saint-Petersburg, Russia",
       "description": ""
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Morphological Classifier of Active Galactic Nuclei",
+      "event": "High Energy Astrophysics Today and Tomorrow, Space Research Institute RAS",
+      "date": "2023-12-20",
+      "location": "Moscow, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "66th International MIPT Scientific Conference",
+      "date": "2024-04-03",
+      "location": "Dolgoprudny, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "8th International Conference on Deep Learning in Computational Physics, M. V. Lomonosov Moscow State University",
+      "date": "2024-06-20",
+      "location": "Moscow, Russia",
+      "description": ""
+    },
+    {
+      "name": "Sphere or Disk? Accretion of Interstellar Medium on Isolated Stellar-mass Black Holes",
+      "event": "All-Russian Astronomical Conference, Special Astrophysical Observatory RAS",
+      "date": "2024-08-27",
+      "location": "Nizhnij Arkhyz, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "All-Russian Astronomical Conference, Special Astrophysical Observatory RAS",
+      "date": "2024-08-28",
+      "location": "Nizhnij Arkhyz, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "Active Galaxies at Different Scales and Wavelengths, Special Astrophysical Observatory RAS",
+      "date": "2024-10-15",
+      "location": "Nizhnij Arkhyz, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "AstroAI lunch talk, Center for Astrophysics | Harvard & Smithsonian",
+      "date": "2025-02-15",
+      "location": "Boston, MA, USA",
+      "description": ""
+    },
+    {
+      "name": "Polytropic Wind-Driven Bubbles and their Shock Structures in Radially Stratified Ambient Media",
+      "event": "22nd Conference of Young Scientists, Space Research Institute RAS",
+      "date": "2025-04-22",
+      "location": "Moscow, Russia",
+      "description": ""
+    },
+    {
+      "name": "Polytropic Wind-Driven Bubbles and their Shock Structures in Radially Stratified Ambient Media",
+      "event": "All-Russian School-Conference of Young Astronomers, Pushkov Institute of Terrestrial Magnetism, Ionosphere and Radiowave Propagation RAS (IZMIRAN)",
+      "date": "2025-05-21",
+      "location": "Troitsk, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "Astroinformatics",
+      "date": "2026-02-25",
+      "location": "Cologne, Germany",
+      "description": ""
+    },
+    {
+      "name": "Redshift Estimation of Galaxies Using Convolutional Neural Networks",
+      "event": "23rd Conference of Young Scientists, Space Research Institute RAS",
+      "date": "2026-04-22",
+      "location": "Moscow, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "23rd Conference of Young Scientists, Space Research Institute RAS",
+      "date": "2026-04-23",
+      "location": "Moscow, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of VLBI Images of AGN Jets Using Contrastive Learning",
+      "event": "LPI-MIPT Observational Astrophysics Seminar",
+      "date": "2026-05-15",
+      "location": "Moscow, Russia",
+      "description": ""
+    },
+    {
+      "name": "Morphological Classification of Jets in Active Galactic Nuclei",
+      "event": "European Astronomical Society Annual Meeting",
+      "date": "2026-07-01",
+      "location": "Lausanne, Switzerland",
+      "description": ""
+    },
+    {
+      "name": "Simulation-to-Real Learning for VLBI Jet Morphology Classification",
+      "event": "AI4Physics Workshop, International Conference on Machine Learning (ICML)",
+      "date": "2026-07-08",
+      "location": "Seoul, South Korea",
+      "description": ""
+    },
+    {
+      "name": "Simulation-to-Real Learning for VLBI Jet Morphology Classification",
+      "event": "IAIFI Summer Workshop",
+      "date": "2026-07-15",
+      "location": "Cambridge, MA, USA",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Algorithms and Data Structures",
+      "institution": "Moscow Institute of Physics and Technology (MIPT)",
+      "date": "2023-01-01",
+      "role": "Teaching Assistant",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Olympiad Astronomy",
+      "institution": "School \u21162107",
+      "date": "2024-01-01",
+      "role": "Teacher",
+      "description": ""
+    },
+    {
+      "course": "ML4Astro",
+      "institution": "Moscow Institute of Physics and Technology (MIPT)",
+      "date": "2026-01-01",
+      "role": "Undergraduate Elective (Lecturer)",
       "description": ""
     }
   ],
