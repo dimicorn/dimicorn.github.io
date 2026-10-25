@@ -28,9 +28,9 @@ author:
   pronouns         : # example: "she/her"
   bio              : "Machine Learning for Scientific Discovery"
   location         : "Moscow, Russia"
-  employer         : "MIPT"
+  employer         : "LPI RAS"
   uri              : # URL
-  email            : "zagorulia.ds@phystech.edu"
+  email            : # hidden from the site; shown spelled-out on the About page
 
   # Academic websites
   academia         : # URL
